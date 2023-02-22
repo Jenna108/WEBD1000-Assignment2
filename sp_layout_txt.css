@@ -6,22 +6,43 @@
    Case Problem 1
    
    Layout styles for Slate and Pencil Tutoring
-   Author: 
-   Date:   
+   Author: Jenna Graham
+   Date:   2/22/2023
    
    Filename: sp_layout.css
 
 */
 
 /* Window and Body Styles */
+html{
+   height: 100%;
+   min-height: 100%;
+}
 
+body{
+   width: 95%;
+   min-width: 640px;
+   max-width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 100%;
+}
 
+img{
+   display: block;
+}
 
 
 /* CSS Grid Styles */
+body{
+   display: grid;
+   grid-template-columns: 25% 25% 25% 25%;
+}
 
-
-
+img#logo{
+   width: 100%;
+   grid-column: span 3;
+}
 
 
 
